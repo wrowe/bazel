@@ -81,13 +81,11 @@ public abstract class BlackBoxTestEnvironment {
             "load('@bazel_tools//tools/build_defs/repo:http.bzl', 'http_archive')",
             "http_archive(",
             "    name = 'rules_cc',",
-            "    sha256 = '1d4dbbd1e1e9b57d40bb0ade51c9e882da7658d5bfbf22bbd15b68e7879d761f',",
-            "    strip_prefix = 'rules_cc-8bd6cd75d03c01bb82561a96d9c1f9f7157b13d0',",
+            "    sha256 = '812a3924348af40492017e7ca6f44819f572dae57bd4c736d2853b4f03522c45',",
+            "    strip_prefix = 'rules_cc-2174aa631a0c32cb14ca0782af43aa0bd0aa1bb3',",
             "    urls = [",
-            "        'https://mirror.bazel.build/github.com/bazelbuild/rules_cc/archive/"
-                + "8bd6cd75d03c01bb82561a96d9c1f9f7157b13d0.zip',",
-            "        'https://github.com/bazelbuild/rules_cc/archive/"
-                + "8bd6cd75d03c01bb82561a96d9c1f9f7157b13d0.zip',",
+            "        'https://github.com/wrowe/rules_cc/archive/"
+                + "2174aa631a0c32cb14ca0782af43aa0bd0aa1bb3.zip',",
             "    ],",
             ")",
             "http_archive(",
